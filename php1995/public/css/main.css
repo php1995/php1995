@@ -38,7 +38,7 @@ header #logo span {
     font-size: 1.7em;
     line-height: 45px;
     margin-left: 40px;
-    font-family: "Vladimir Script", serif;
+    font-family: Tahoma, serif;
 }
 
 
@@ -244,6 +244,44 @@ header.fixed #logo {
 
 .btn:hover {
     background-color: #20d2e2;
+}
+
+/* PROFESSIONS */
+
+#professions {
+    background-color: #fff;
+    border-top: 2px dashed #e4e;
+    width: 100%;
+    float: left;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#professions div {
+    width: 25%;
+    margin-left: 6%;
+    float: left;
+}
+
+.profession_class > span {
+    font-weight: lighter;
+    color: #a3a0ad;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+.profession_item {
+    color: #7d7d7d;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.profession_item {
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 0.95em;
+    color: #4a4a4a;
+    margin-bottom: 40px;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* MEDIA */

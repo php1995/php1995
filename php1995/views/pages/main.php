@@ -3,7 +3,7 @@
 <body>
 <header>
     <div id="logo" onclick="slowScroll('#top')">
-        <span>Victor Kaspersky</span>
+        <span>Victor Kaspersky &reg;</span>
     </div>
     <div id="about">
         <a href="" onclick="slowScroll('#contact')">Contacts</a>
@@ -20,7 +20,7 @@
 <div id="main">
     <div class="intro">
         <h2>Let`s develop, lazy ass!</h2>
-        <span>or go watch stupid videos on tic-tok</span>
+        <span>or go watch stupid videos... https://youtube.com </span>
     </div>
     <div class="text">
         <span>
@@ -31,21 +31,31 @@
     </div>
 </div>
 <?php require_once "public/blocks/overview.html" ?>
+<?php require_once "public/blocks/contacts.html" ?>
+<div id="professions">
+    <div>
+        <span lang="heading">Who are you?</span>
+        <div class="profession_class"><span>WEB</span>
+            <input type="radio" class="profession_item">Fullstack developer</input>
+            <input type="radio" class="profession_item">Frontend developer</input>
+            <input type="radio" class="profession_item">Backend developer</input>
+        </div>
 
-<div id="contacts">
-    <center><h5>Contact me</h5></center>
-    <form id="form_input" action="main.php" method="post">
+        <div class="profession_class"><span>Mobile</span>
+            <input type="radio" class="profession_item">IOS developer</input>
+            <input type="radio" class="profession_item">Android developer</input>
+        </div>
 
-        <label for="about_you">Who are you?</label><span> *</span>
-        <textarea rows="6" cols="50" placeholder="Write something about yourself" name="about_you"></textarea>
-        <br>
+        <div class="profession_class"><span>Enterprise</span>
+            <input type="radio" class="profession_item">Java developer</input>
+            <input type="radio" class="profession_item">C# developer</input>
+        </div>
 
-        <label for="your_contacts">Leave your contacts!</label><span> *</span>
-        <input type="text" placeholder="email, social networks etc.">
-        <br>
-
-        <div id="send" class="btn">Send message</div>
-    </form>
+        <div class="profession_class"><span>Game dev</span>
+            <input type="radio" class="profession_item">C++ developer</input>
+            <input type="radio" class="profession_item">C# developer</input>
+        </div>
+    </div>
 </div>
 </body>
 </html>
