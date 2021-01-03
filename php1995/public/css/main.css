@@ -238,6 +238,13 @@ header.fixed #logo {
     border-color: #333;
 }
 
+#professions_title {
+    font-size: 3em;
+    color: blue;
+    margin-bottom: 15px;
+    margin-left: 200px;
+}
+
 
 .btn {
     float: left;
@@ -252,58 +259,6 @@ header.fixed #logo {
 
 .btn:hover {
     background-color: #20d2e2;
-}
-
-/* PROFESSIONS */
-
-
-#professions {
-    background-color: #fff;
-    border-top: 2px dashed #e4e;
-    width: 100%;
-    float: left;
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-#professions div {
-    width: 25%;
-    margin-left: 6%;
-    float: inherit;
-}
-
-.profession_class > span {
-    font-weight: lighter;
-    color: #a3a0ad;
-    font-size: 2.2em;
-    margin-bottom: 0.5rem;
-}
-
-.profession_class {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem;
-    min-width: 400px;
-}
-
-.profession_item {
-    font-family: "Roboto Thin", sans-serif;
-    font-size: 0.95em;
-    color: #4a4a4a;
-    margin-bottom: 40px;
-    align-content: center;
-    -webkit-font-smoothing: antialiased;
-    flex: 1 1 auto;
-}
-
-#professions_h4 {
-    font-size: 3em;
-    color: #4169e1;
 }
 
 @media (max-width: 700px) {

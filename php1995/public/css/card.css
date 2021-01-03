@@ -1,0 +1,39 @@
+.card-element {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid blueviolet;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 12px;
+    width: 190px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    background-image: url("../image/cards-bg.png");
+    background-blend-mode: multiply;
+    background-color: #37e963;
+}
+
+.card {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    width: 220px;
+    height: 300px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    margin: 30px 60px;
+    padding: 20px 20px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    padding: 6px 30px 20px 67px;
+    color: white;
+}
+
