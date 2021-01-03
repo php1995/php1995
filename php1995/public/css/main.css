@@ -41,6 +41,12 @@ header #logo span {
     font-family: Tahoma, serif;
 }
 
+.heading {
+    color: #7d7d7d;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
 
 /* ABOUT */
 
@@ -101,6 +107,7 @@ header.fixed #logo {
 
 #top h1 {
     padding-top: 20%;
+    font-size: 3em;
 }
 
 #top h3 {
@@ -231,6 +238,7 @@ header.fixed #logo {
     border-color: #333;
 }
 
+
 .btn {
     float: left;
     border-radius: 5px;
@@ -248,6 +256,7 @@ header.fixed #logo {
 
 /* PROFESSIONS */
 
+
 #professions {
     background-color: #fff;
     border-top: 2px dashed #e4e;
@@ -260,20 +269,26 @@ header.fixed #logo {
 #professions div {
     width: 25%;
     margin-left: 6%;
-    float: left;
+    float: inherit;
 }
 
 .profession_class > span {
     font-weight: lighter;
     color: #a3a0ad;
-    margin-bottom: 20px;
     font-size: 2.2em;
+    margin-bottom: 0.5rem;
 }
 
-.profession_item {
-    color: #7d7d7d;
-    font-size: 1.3em;
-    font-weight: bold;
+.profession_class {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    min-width: 400px;
 }
 
 .profession_item {
@@ -281,10 +296,15 @@ header.fixed #logo {
     font-size: 0.95em;
     color: #4a4a4a;
     margin-bottom: 40px;
+    align-content: center;
     -webkit-font-smoothing: antialiased;
+    flex: 1 1 auto;
 }
 
-/* MEDIA */
+#professions_h4 {
+    font-size: 3em;
+    color: #4169e1;
+}
 
 @media (max-width: 700px) {
     #overview .project {
